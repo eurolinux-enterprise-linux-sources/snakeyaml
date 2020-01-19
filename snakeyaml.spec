@@ -3,7 +3,7 @@
 
 Name:             snakeyaml
 Version:          1.11
-Release:          7%{?dist}
+Release:          8%{?dist}
 Summary:          YAML parser and emitter for the Java programming language
 License:          ASL 2.0
 Group:            Development/Libraries
@@ -94,6 +94,9 @@ sed -i 's/\r//g' LICENSE.txt
 %doc LICENSE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.11-8
+- Mass rebuild 2013-12-27
+
 * Thu Aug 22 2013 Michal Srb <msrb@redhat.com> - 1.11-7
 - Migrate away from mvn-rpmbuild (#997461)
 
